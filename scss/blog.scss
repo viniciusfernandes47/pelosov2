@@ -1,0 +1,21 @@
+.blog_interna {
+    background-image: url(../images/blog.jpg);
+}
+.blog_listagem {
+    padding-top: 70px;
+}
+// Blog interna
+.postagem_blog_interna {
+    h3 {
+        font-size: 25px;
+    }
+    .dentro_blog {
+        p {
+            margin-top: 0;
+            font-size: 14px;
+        }
+        .data {
+            margin-bottom: 0;
+        }
+    }
+}

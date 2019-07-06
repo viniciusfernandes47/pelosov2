@@ -1,0 +1,145 @@
+@media (max-width: 480px) {
+  .hamburger {
+    display: block;
+  }
+  .navigation_new {
+    display: none;
+  }
+  .topo_maior .container {
+    flex-wrap: wrap;
+    max-height: 100%;
+  }
+  .topo_maior .logo:before, .topo_maior .logo:after {
+    display: none;
+  }
+  .topo_maior {
+    background: #01014b;
+    height: auto;
+  }
+  .topo_maior .logo {
+    background: none;
+    width: 100%;
+    float: none;
+    margin-top: 0;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+  }
+  .topo_maior .logo .logo_aqui {
+    justify-content: center;
+  }
+  .endereco {
+    display: none;
+  }
+  .topo_maior .icones_ecommerce {
+    align-items: center;
+    padding-right: 38px;
+    padding-bottom: 21px;
+  }
+  .topo_maior .icones_ecommerce i {
+    color: #FFF;
+  }
+  .slider_produtos .slick-list {
+    margin: 0 37px;
+  }
+  .moto img {
+    width: 100%;
+  }
+  .carousel-inner .moto {
+    top: 37%;
+    left: 0%;
+  }
+  .carousel-inner .legenda {
+    position: absolute;
+    top: 5.5%;
+    text-align: center;
+    width: 100%;
+  }
+  .carousel-inner .legenda h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .carousel-inner .legenda h2 span {
+    font-size: 44px;
+  }
+  .carousel-inner .legenda h4 {
+    font-size: 15px;
+  }
+  .carousel-inner .legenda .comprar {
+    margin-top: 9px;
+    position: relative;
+    z-index: 3;
+  }
+  .topo_maior .icones_ecommerce .dropdown-menu {
+    left: -89px !important;
+  }
+  .slick-next {
+    right: 2px;
+  }
+  .carrinho_hide {
+    top: 64px;
+    left: -132px;
+  }
+  .ligamos {
+    height: auto;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    background-size: cover;
+  }
+  .ligamos .d-flex {
+    flex-wrap: wrap;
+  }
+  .ligamos h2 {
+    margin-right: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 21px;
+  }
+  .ligamos input {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .ligamos button {
+    margin: 0 50px;
+  }
+  .categorias .cada_categoria {
+    position: relative;
+    margin-bottom: 11px;
+  }
+  .dentro_blog {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 23px;
+  }
+  .dentro_blog .imagem_post {
+    margin-right: 0;
+  }
+  .texto_post {
+    text-align: center;
+    margin: 0 54px;
+  }
+  .dentro_blog .leia {
+    margin: 0 auto;
+  }
+  .blog {
+    padding-bottom: 50px;
+  }
+  footer .f_top {
+    padding-top: 33px;
+    text-align: center;
+  }
+  footer .f_top .lista_contato .f_contato {
+    margin-bottom: 5px;
+    margin-left: 74px;
+  }
+  footer .f_top h2 {
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+  .seguranca_f {
+    margin: 0 70px;
+  }
+  footer .f_top {
+    padding-bottom: 33px;
+  }
+}

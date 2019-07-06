@@ -1,0 +1,233 @@
+.produto_info {
+  background: #f6f6f6;
+  padding-top: 70px;
+}
+
+.info_product .breadcrumbv3 {
+  background: #FFF;
+  max-width: 60%;
+  justify-content: center;
+  padding: 2px 0;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.08);
+}
+
+.info_product .breadcrumbv3 a {
+  text-transform: uppercase;
+  color: #01014b;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+.info_product .breadcrumbv3 span {
+  margin: 0 8px;
+  color: #01014b;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+.info_product .breadcrumbv3 .home_icon {
+  background-position: -57px -25px;
+  min-width: 21px;
+  height: 20px;
+}
+
+.info_product h2 {
+  font-family: "sans_culottesregular";
+  font-size: 37px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #01014b;
+  line-height: 55px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.info_product .preco_info {
+  color: #e60000;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.info_product .preco_info span {
+  font-weight: 500;
+  font-size: 26px;
+  margin-right: 6px;
+}
+
+.info_product .emate_info {
+  color: #414141;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  margin-bottom: 23px;
+}
+
+.info_product .caixa_texto {
+  color: #414141;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.info_product h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #414141;
+  margin-bottom: 10px;
+}
+
+.info_product .quantidade input {
+  width: 80px;
+  height: 43px;
+  background: #FFF;
+  border: 0;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #414141;
+  font-size: 16px;
+  text-align: center;
+}
+
+.info_product .adicionar {
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  background: #e60000;
+  padding: 0 38px;
+  margin-left: 76px;
+  border-radius: 30px;
+}
+
+.info_product .adicionar:hover {
+  background: #01014b;
+}
+
+.info_product .adicionar i {
+  font-size: 20px;
+  color: #FFF;
+  padding-right: 8px;
+  font-weight: normal;
+}
+
+.info_product .calcular_frete input {
+  width: 208px;
+  height: 43px;
+  background: #FFF;
+  border: 0;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: #414141;
+  font-size: 16px;
+  padding-left: 55px;
+}
+
+.info_product .calcular_frete i {
+  font-size: 21px;
+  color: #414141;
+  position: absolute;
+  top: 7px;
+  left: 17px;
+}
+
+.info_product .calcular_frete button {
+  background: #e60000;
+  text-transform: uppercase;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  height: 33px;
+  margin-left: 7px;
+  border-radius: 30px;
+  border: 0;
+  font-size: 11px;
+}
+
+.info_product .calcular_frete button:hover {
+  background: #01014b;
+}
+
+.compartilhar_produto h4 {
+  margin-bottom: 20px;
+}
+
+.compartilhar_produto a {
+  margin-right: 36px;
+}
+
+.compartilhar_produto a:last-child {
+  margin-right: 0;
+}
+
+.compartilhar_produto .fb_i {
+  background-position: -1px -69px;
+  width: 12px;
+  height: 24px;
+}
+
+.compartilhar_produto .ig_i {
+  background-position: -52px -69px;
+  width: 24px;
+  height: 24px;
+}
+
+.compartilhar_produto .wp_i {
+  background-position: -113px -70px;
+  width: 24px;
+  height: 23px;
+}
+
+.compartilhar_produto .ma_i {
+  background-position: -174px -69px;
+  width: 25px;
+  height: 24px;
+}
+
+.desc_produto {
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.08);
+  background: #FFF;
+  padding-top: 40px;
+  padding-bottom: 7px;
+  margin-top: 86px;
+  margin-bottom: 76px;
+}
+
+.desc_produto h2 {
+  color: #01014b;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  margin-bottom: 32px;
+}
+
+.desc_produto p {
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #414141;
+  margin-bottom: 27px;
+}
+
+.confira_tambem {
+  background: #f6f6f6;
+  padding-bottom: 70px;
+}

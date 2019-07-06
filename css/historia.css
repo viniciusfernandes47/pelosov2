@@ -1,0 +1,130 @@
+.titulo_quem {
+  position: relative;
+  height: 441px;
+  background: #01014b;
+}
+
+.titulo_quem h1 {
+  display: inline-block;
+  font-size: 51px;
+  line-height: 60px;
+  letter-spacing: 0.025em;
+  color: #FFF;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.titulo_quem h1 span {
+  font-weight: 900;
+}
+
+.titulo_quem .titulo_align {
+  display: flex;
+  align-self: flex-end;
+}
+
+.imagem_direita {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  background: url(../images/historia.jpg);
+  height: 441px;
+}
+
+.efeito_titulo {
+  background: url(../images/effect_titulo.png) no-repeat 43% 0%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+
+.texto_quem {
+  padding-top: 42px;
+}
+
+.texto_quem .slick-list {
+  margin-right: 87px;
+}
+
+.texto_quem p {
+  color: #575555;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  margin-bottom: 21px;
+}
+
+.texto_quem .slick-next {
+  right: 87px;
+}
+
+.texto_quem h2 {
+  color: #01014b;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  margin-top: 14px;
+  margin-bottom: 29px;
+}
+
+.paragrafo {
+  padding-right: 25px;
+}
+
+.contato_historia {
+  margin-top: 80px;
+  padding-bottom: 83px;
+}
+
+.contato_historia h2 {
+  font-weight: bold;
+  color: #01014b;
+  font-size: 35px;
+  margin-bottom: 42px;
+}
+
+.contato_historia iframe {
+  width: 100%;
+  height: 333px;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.08);
+}
+
+.contato_historia .lista_contato .texto_c_footer {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.contato_historia .lista_contato .icone_c_footer {
+  margin-right: 23px;
+}
+
+.contato_historia .lista_contato .icone_c_footer i {
+  border-radius: 50%;
+  color: #202020;
+  border: 1px solid #202020;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+}
+
+.contato_historia .lista_contato .icone_c_footer i:before {
+  font-size: 17px;
+}
+
+.contato_historia .lista_contato .icone_c_footer i.flaticon-stopwatch:before {
+  position: relative;
+  left: 1px;
+}
+
+.contato_historia .lista_contato .f_contato {
+  margin-bottom: 20px;
+}
